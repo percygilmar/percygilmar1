@@ -1,0 +1,88 @@
+body {
+    background-image: url("nieve.jpg");
+    background-color: #cccccc;
+    font-family: 'Sofia';font-size: 22px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black; /* Borde negro */
+}
+
+td {
+    border: 1px solid black; /* Borde negro para cada celda */
+    padding: 10px; /* Espacio interno */
+    text-align: center;
+    vertical-align: top; /* Alinear el contenido en la parte superior de la celda */
+}
+
+img {
+    max-width: 100%; /* Ajustar el tamaño máximo de las imágenes */
+    height: auto;
+    display: block; /* Hacer que las imágenes ocupen todo el ancho disponible */
+    margin-bottom: 10px; /* Espacio entre la imagen y el subtítulo */
+}
+.imagen3 {
+    width: 50%; /* Ancho específico para la imagen 3 */
+}
+.descripcion {
+    font-style: italic; /* Estilo de fuente en cursiva para la descripción */
+    color: black; /* Color de la descripción */
+    margin-bottom: 5px; /* Espacio entre la descripción y la imagen */
+}
+div {
+    .video-container {
+        position: relative;
+        width: 640px;
+        margin: 0 auto;
+    }
+
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+* {
+ box-sizing: border-box;
+}
+
+.column {
+float: left;
+width: 33.33%;
+padding: 5px;
+}
+.row::after {
+ content: "";
+clear: both;
+display: table;
+}
+h2 {
+color: #5398d3;
+}
+p {
+color: #6a97c2
+}
+footer {
+color: #c8d3dc;
+}
+nav ul {
+background-color: rgb(32, 120, 214);
+width: 100%;
+list-style-type: none;
+text-align: center;
+}
+nav li{
+display: inline-flex;
+}
+nav a {
+text-decoration: none;
+color: white;
+padding: 10px;
+width: 150px;
+}
+nav li:hover {
+background-color: black;
+}
